@@ -37,9 +37,10 @@ group :development, :test do
   gem 'rspec-core'
   gem 'capybara'
   gem "rspec-rails"
-  gem 'selenium-webdriver', '~> 2.53.4'
+  # gem 'selenium-webdriver', '~> 2.53.4'
   gem 'factory_girl'
   gem "faker"
+  gem 'poltergeist'
 end
 
 group :development do
