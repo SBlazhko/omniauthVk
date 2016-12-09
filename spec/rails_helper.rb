@@ -32,7 +32,7 @@ ActiveRecord::Migration.maintain_test_schema!
 Capybara.configure do |config|
   config.run_server = false
   config.javascript_driver = :poltergeist
-  config.app_host = 'http://localhost:3000'
+  config.app_host = 'https://powerful-gorge-53519.herokuapp.com/'
 end
 
 OmniAuth.config.test_mode = true
